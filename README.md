@@ -13,9 +13,8 @@ MDFANet innovatively designs a **multi-dimensional feature aggregation module** 
 
 ## Datasets
 We conduct comparative experiments on two datasets:
-- **ST-EVCDP Dataset**: Stored in the `datasets` folder, it is a spatiotemporal dataset for charging demand prediction, containing temporal features (charging load, price, etc.) for multiple regions and spatial correlation information between regions.
-- **UrbanEV Dataset**: Stored in the `datasets_UrbanEV` folder, it is a city-level EV charging behavior dataset, used to verify the model’s generalization ability across datasets.
-
+- **ST-EVCDP Dataset(https://github.com/IntelligentSystemsLab/ST-EVCDP)**: A spatiotemporal dataset for charging demand prediction. Users need to download and organize this dataset, then save it in the datasets folder. The dataset contains temporal features (charging load, price, etc.) for multiple regions and spatial correlation information between regions.
+- **UrbanEV Dataset(https://github.com/IntelligentSystemsLab/UrbanEV)**: A city-level EV charging behavior dataset. Users need to download and organize this dataset, then save it in the datasets_UrbanEV folder. This dataset is used to verify the model's generalization ability across datasets.
 
 ## Environment Requirements
 - Python ≥ 3.8
